@@ -218,10 +218,43 @@ nav ul li a.nav-cta:hover{background:var(--gold);color:var(--walnut)}
 .reveal{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
 .reveal.in{opacity:1;transform:none}
 
+/* ---------- heritage (sepia / old-world) ---------- */
+.heritage{
+  background:var(--walnut);
+  background-image:linear-gradient(rgba(30,22,16,.86),rgba(30,22,16,.93)),url('images/walnut.jpg');
+  background-size:cover;background-position:center;
+}
+.heritage-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:54px;align-items:center}
+.heritage-atelier{position:relative}
+.heritage-atelier img{width:100%;filter:sepia(.45) contrast(1.04);border:1px solid rgba(180,141,86,.32);box-shadow:0 26px 54px -24px rgba(0,0,0,.75)}
+.heritage-atelier figcaption{margin-top:15px;font-family:var(--serif-2);font-style:italic;font-size:15.5px;color:var(--gold-soft);line-height:1.55;max-width:560px}
+.heritage-atelier figcaption em{color:#e8dabe}
+.heritage-text>p{color:var(--muted-light);font-size:15.5px}
+.heritage-text em{font-style:italic;color:var(--gold-soft)}
+.heritage-portrait{margin-top:30px;max-width:190px}
+.heritage-portrait img{width:100%;filter:sepia(.4);border:6px solid #efe6d6;box-shadow:0 16px 32px -14px rgba(0,0,0,.7);transform:rotate(-2.2deg)}
+
+/* ---------- craftsmanship diagram ---------- */
+.craft-body{display:grid;grid-template-columns:minmax(270px,350px) 1fr;gap:42px;align-items:start;max-width:1060px;margin:0 auto}
+.craft-diagram{background:#f3ede1;padding:14px;border:1px solid rgba(180,141,86,.4);box-shadow:0 20px 44px -22px rgba(0,0,0,.6)}
+.craft-diagram img{width:100%;display:block}
+.craft-body .craft-grid{grid-template-columns:1fr;gap:18px;max-width:none;margin:0}
+
+/* ---------- gallery slideshow ---------- */
+.slideshow{position:relative;width:100%;height:clamp(300px,54vh,580px);margin-bottom:42px;overflow:hidden;background:var(--walnut);box-shadow:0 20px 44px -24px rgba(0,0,0,.55)}
+.slideshow .slide{position:absolute;inset:0;opacity:0;transition:opacity 1.5s ease;background-size:cover;background-position:center 35%}
+.slideshow .slide.on{opacity:1}
+.slideshow::after{content:'';position:absolute;inset:0;box-shadow:inset 0 0 130px rgba(20,14,9,.55);pointer-events:none}
+
 /* ---------- responsive ---------- */
 @media(max-width:900px){
   .about-grid{grid-template-columns:1fr;gap:40px}
   .about-media::after{display:none}
+  .heritage-grid{grid-template-columns:1fr;gap:34px}
+  .heritage-portrait{margin:24px auto 0}
+  .craft-body{grid-template-columns:1fr;gap:30px}
+  .craft-diagram{max-width:340px;margin:0 auto}
+  .craft-body .craft-grid{grid-template-columns:1fr 1fr}
   .contact-grid{grid-template-columns:1fr;gap:40px}
   .craft-grid{gap:20px}
 }
