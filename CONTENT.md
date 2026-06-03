@@ -7,7 +7,7 @@ Custom domain artisansdubois.com is currently 404 (lapsed). Wix media library ID
 - **Name:** Artisans du Bois LLC
 - **Tagline:** Old World Craftsmanship In a Contemporary World  / "depuis 1979"
 - **Founder/craftsman:** Nick Bruford (trained under Swiss master craftsman Andre Liardet ~35+ yrs ago)
-- **Address:** 1135 South 1680 West, Orem, UT 84058
+- **Address:** 1133 N 450 W, Unit A, Springville, UT 84663  (updated 2026-06-03 per Trevor; firm relocated from Orem)
 - **Phone:** 801-319-8188
 - **Email:** nick@bruford.com
 - (A "Fax: 801-000-0000" appears on the Wix contact page — clearly a placeholder; omit.)
@@ -72,8 +72,8 @@ Herein lies the fundamental difference between our doors and most others; like t
 
 ## CONTACT
 Artisans du Bois LLC
-1135 South 1680 West
-Orem, UT 84058
+1133 N 450 W, Unit A
+Springville, UT 84663
 nick@bruford.com
 Tel: 801-319-8188
 "get in touch with us" (form: name, email, subject, message + Google map)

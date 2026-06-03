@@ -1,6 +1,6 @@
 # Artisans du Bois
 
-Marketing site for **Artisans du Bois LLC** — Old World custom doors and architectural woodwork, hand-built in the French *menuisier* / *ébéniste* tradition since 1979. Based in Orem, Utah; serving clients nationwide.
+Marketing site for **Artisans du Bois LLC** — Old World custom doors and architectural woodwork, hand-built in the French *menuisier* / *ébéniste* tradition since 1979. Based in Springville, Utah; serving clients nationwide.
 
 A single self-contained static site (no build step, no framework) — fast, durable, and trivial to host. It replaces the firm's previous Wix site; all text and imagery were recovered from the original.
 
