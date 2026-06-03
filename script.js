@@ -155,6 +155,27 @@
     note.textContent = 'Opening your email app… if nothing happens, email us directly at nick@bruford.com.';
   });
 
+  /* ---------- Gallery slideshow (cross-fade) ---------- */
+  const SLIDES = ['exterior-1', 'interior-2', 'custom-2', 'exterior-3', 'interior-4', 'custom-4', 'exterior-6', 'custom-6'];
+  const show = document.getElementById('slideshow');
+  if (show) {
+    SLIDES.forEach((s, i) => {
+      const d = document.createElement('div');
+      d.className = 'slide' + (i === 0 ? ' on' : '');
+      d.style.backgroundImage = "url('images/gallery/" + s + ".jpg')";
+      show.appendChild(d);
+    });
+    const slides = show.querySelectorAll('.slide');
+    if (slides.length > 1) {
+      let si = 0;
+      setInterval(() => {
+        slides[si].classList.remove('on');
+        si = (si + 1) % slides.length;
+        slides[si].classList.add('on');
+      }, 4200);
+    }
+  }
+
   /* ---------- Year ---------- */
   document.getElementById('year').textContent = new Date().getFullYear();
 })();
