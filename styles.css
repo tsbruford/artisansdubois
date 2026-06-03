@@ -220,19 +220,19 @@ nav ul li a.nav-cta:hover{background:var(--gold);color:var(--walnut)}
 
 /* ---------- heritage (sepia / old-world) ---------- */
 .heritage{
-  background:var(--walnut);
-  background-image:linear-gradient(rgba(30,22,16,.86),rgba(30,22,16,.93)),url('images/walnut.jpg');
+  background:var(--cream);
+  background-image:linear-gradient(rgba(243,237,225,.94),rgba(243,237,225,.94)),url('images/walnut.jpg');
   background-size:cover;background-position:center;
 }
 .heritage-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:54px;align-items:center}
 .heritage-atelier{position:relative}
-.heritage-atelier img{width:100%;filter:sepia(.45) contrast(1.04);border:1px solid rgba(180,141,86,.32);box-shadow:0 26px 54px -24px rgba(0,0,0,.75)}
-.heritage-atelier figcaption{margin-top:15px;font-family:var(--serif-2);font-style:italic;font-size:15.5px;color:var(--gold-soft);line-height:1.55;max-width:560px}
-.heritage-atelier figcaption em{color:#e8dabe}
-.heritage-text>p{color:var(--muted-light);font-size:15.5px}
-.heritage-text em{font-style:italic;color:var(--gold-soft)}
+.heritage-atelier img{width:100%;filter:sepia(.45) contrast(1.04);border:1px solid rgba(180,141,86,.32);box-shadow:0 26px 54px -24px rgba(0,0,0,.5)}
+.heritage-atelier figcaption{margin-top:15px;font-family:var(--serif-2);font-style:italic;font-size:15.5px;color:var(--muted);line-height:1.55;max-width:560px}
+.heritage-atelier figcaption em{color:var(--ink)}
+.heritage-text>p{color:var(--muted);font-size:15.5px}
+.heritage-text em{font-style:italic;color:var(--ink)}
 .heritage-portrait{margin-top:30px;max-width:190px}
-.heritage-portrait img{width:100%;filter:sepia(.4);border:6px solid #efe6d6;box-shadow:0 16px 32px -14px rgba(0,0,0,.7);transform:rotate(-2.2deg)}
+.heritage-portrait img{width:100%;filter:sepia(.4);border:6px solid #fff;box-shadow:0 16px 32px -14px rgba(0,0,0,.35);transform:rotate(-2.2deg)}
 
 /* ---------- craftsmanship diagram ---------- */
 .craft-body{display:grid;grid-template-columns:minmax(270px,350px) 1fr;gap:42px;align-items:start;max-width:1060px;margin:0 auto}
