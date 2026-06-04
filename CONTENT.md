@@ -1,7 +1,9 @@
-# Artisans du Bois — Site Content (captured from live Wix site, 2026-06-03)
+# Artisans du Bois: Site Content (captured from the original Wix site, 2026-06-03)
 
-Source: https://artisansduboisutah.wixsite.com/artisansdubois (live published Wix site)
-Custom domain artisansdubois.com is currently 404 (lapsed). Wix media library ID: `6bd0ff`.
+> **Historical record.** This is a working transcript of the original Wix copy plus capture notes. It is not maintained to the live site's current style, so its punctuation (em-dashes included) may differ. The current copy lives in `index.html`; see `docs/project-history.md`.
+
+Source: https://artisansduboisutah.wixsite.com/artisansdubois (the original published Wix site)
+Wix media library ID: `6bd0ff`. The custom domain returned 404 at capture time; it is now live on Cloudflare Pages.
 
 ## Business facts
 - **Name:** Artisans du Bois LLC
