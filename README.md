@@ -1,14 +1,14 @@
 # Artisans du Bois
 
-Marketing site for **Artisans du Bois LLC** — Old World custom doors and architectural woodwork, hand-built in the French *menuisier* / *ébéniste* tradition since 1979. Based in Springville, Utah; serving clients nationwide.
+Marketing site for **Artisans du Bois LLC**. Old World custom doors and architectural woodwork, hand-built in the French *menuisier* / *ébéniste* tradition since 1979. Based in Springville, Utah; serving clients nationwide.
 
-A single self-contained static site (no build step, no framework) — fast, durable, and trivial to host. It replaces the firm's previous Wix site; all text and imagery were recovered from the original.
+A single self-contained static site (no build step, no framework): fast, durable, and easy to host. It replaces the firm's previous Wix site; we recovered all its text and imagery from the original.
 
 ## Structure
 
 ```
 index.html        # the whole page (Home, About, Craftsmanship, Gallery, Contact)
-styles.css        # all styling — walnut/cream/rust palette, responsive
+styles.css        # all styling: walnut/cream/rust palette, responsive
 script.js         # gallery filtering, lightbox, mobile nav, scroll effects, contact form
 images/           # web-optimized imagery used by the site
   gallery/        #   curated portfolio photos (exterior / interior / custom / hardware)
