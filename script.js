@@ -1,5 +1,5 @@
 /* ============================================================
-   Artisans du Bois — site behaviour
+   Artisans du Bois site behaviour
    ============================================================ */
 (function () {
   'use strict';
