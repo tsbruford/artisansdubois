@@ -131,29 +131,6 @@
     el.classList.add('reveal'); io.observe(el);
   });
 
-  /* ---------- Contact form ----------
-     Default: composes a mailto: to nick@bruford.com (works with no backend).
-     To enable in-page submission instead, create a free Formspree form and:
-       1) set form action="https://formspree.io/f/XXXXXXXX" method="POST" in index.html
-       2) delete the submit handler below.
-  ------------------------------------ */
-  const form = document.getElementById('contactForm');
-  const note = document.getElementById('formNote');
-  form.addEventListener('submit', e => {
-    e.preventDefault();
-    if (!form.checkValidity()) { form.reportValidity(); return; }
-    const v = id => encodeURIComponent(document.getElementById(id).value.trim());
-    const raw = id => document.getElementById(id).value.trim();
-    const subject = encodeURIComponent('Project inquiry — ' + raw('fname') + ' ' + raw('lname'));
-    const body = encodeURIComponent(
-      'Name: ' + raw('fname') + ' ' + raw('lname') + '\n' +
-      'Email: ' + raw('email') + '\n' +
-      'Phone: ' + raw('phone') + '\n\n' +
-      raw('message')
-    );
-    window.location.href = 'mailto:nick@bruford.com?subject=' + subject + '&body=' + body;
-    note.textContent = 'Opening your email app… if nothing happens, email us directly at nick@bruford.com.';
-  });
 
   /* ---------- Gallery slideshow (cross-fade) ---------- */
   const SLIDES = ['exterior-1', 'interior-2', 'custom-2', 'exterior-3', 'interior-4', 'custom-4', 'exterior-6', 'custom-6'];
