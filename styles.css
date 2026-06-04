@@ -188,7 +188,7 @@ nav ul li a.nav-cta:hover{background:var(--gold);color:var(--walnut)}
 .contact-form textarea{resize:vertical;min-height:120px}
 .contact-form .btn{align-self:flex-start;border:0}
 .form-note{font-size:13.5px;color:var(--rust);min-height:18px}
-.map-wrap{margin-top:80px;line-height:0}
+.map-wrap{line-height:0}
 .map-wrap iframe{width:100%;height:380px;border:0;filter:grayscale(.25) sepia(.12)}
 
 /* ---------- footer ---------- */
@@ -196,6 +196,9 @@ nav ul li a.nav-cta:hover{background:var(--gold);color:var(--walnut)}
 .footer-logo{height:66px;width:auto;margin:0 auto 18px;filter:brightness(0) invert(1) sepia(.28) saturate(1.4) hue-rotate(-6deg) brightness(1.04);opacity:.95}
 .footer-tag{font-family:var(--serif-2);font-style:italic;font-size:17px;color:var(--gold-soft);margin-bottom:10px}
 .footer-meta{font-size:12.5px;letter-spacing:.5px}
+.footer-social{display:flex;justify-content:center;gap:22px;margin:4px 0 18px}
+.footer-social a{color:var(--gold-soft);display:inline-flex;transition:color .2s ease,transform .2s ease}
+.footer-social a:hover{color:#fff;transform:translateY(-2px)}
 
 /* ---------- lightbox ---------- */
 .lightbox{

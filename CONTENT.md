@@ -6,7 +6,7 @@ Custom domain artisansdubois.com is currently 404 (lapsed). Wix media library ID
 ## Business facts
 - **Name:** Artisans du Bois LLC
 - **Tagline:** Old World Craftsmanship In a Contemporary World  / "depuis 1979"
-- **Founder/craftsman:** Nick Bruford (trained under Swiss master craftsman Andre Liardet ~35+ yrs ago)
+- **Founder/craftsman:** Nick Bruford (apprenticed under Swiss master André Liardet in 1974 — over 50 years ago)
 - **Address:** 1133 N 450 W, Unit A, Springville, UT 84663  (updated 2026-06-03 per Trevor; firm relocated from Orem)
 - **Phone:** 801-319-8188
 - **Email:** nick@bruford.com
