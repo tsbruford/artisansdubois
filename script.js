@@ -124,9 +124,12 @@
   }));
 
   /* ---------- Reveal on scroll ---------- */
+  /* threshold must stay 0: on phones the gallery section is ~10x the viewport
+     height, so a ratio threshold (e.g. 12% visible) can never be reached and
+     the section would stay at opacity 0 forever */
   const io = new IntersectionObserver(entries => {
     entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
-  }, { threshold: 0.12 });
+  }, { rootMargin: '0px 0px -10% 0px', threshold: 0 });
   document.querySelectorAll('.section, .tile, .craft-card, .about-media, .about-text').forEach(el => {
     el.classList.add('reveal'); io.observe(el);
   });
